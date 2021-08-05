@@ -4,3 +4,4 @@ var student = {
     cgpa: 3.75,
 }
 console.log(student);
+console.log(student.name);
