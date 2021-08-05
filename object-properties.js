@@ -14,9 +14,6 @@ var student = {
 console.log(student);
 console.log(student.name);
 
-student.cgpa = 3.81;
-student['cgpa'] = 3.85;
-
 var student = {
     id: 21136694,
     name: 'Naim Siddiqui',
@@ -25,3 +22,6 @@ var student = {
 // set an object property value
 var modifiedName = 'Naim Siddiqui Prince';
 console.log(modifiedName);
+
+// Set an object property in a different way
+var modifiedCgpa = student['cgpa'] = 3.91;
